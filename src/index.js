@@ -429,6 +429,7 @@ export default class Trigger extends React.Component {
     popupContainer.style.top = '0';
     popupContainer.style.left = '0';
     popupContainer.style.width = '100%';
+    popupContainer.style.height = '100%';
     const mountNode = props.getPopupContainer ?
       props.getPopupContainer(findDOMNode(this)) : props.getDocument().body;
     mountNode.appendChild(popupContainer);
