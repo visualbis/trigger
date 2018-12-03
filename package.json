@@ -1,5 +1,5 @@
 {
-  "name": "@visualbi/rc-trigger",
+  "name": "rc-trigger",
   "version": "2.6.3",
   "description": "base abstract trigger component for react",
   "keywords": [
