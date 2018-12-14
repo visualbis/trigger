@@ -1,32 +1,26 @@
-webpackJsonp([0],{
-
-/***/ 154:
+webpackJsonp([0],[
+/* 0 */,
+/* 1 */,
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(155);
+module.exports = __webpack_require__(3);
 
 
 /***/ }),
-
-/***/ 155:
+/* 3 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_possibleConstructorReturn__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_inherits__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_dom__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rc_trigger__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rc_trigger_assets_index_less__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rc_trigger_assets_index_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rc_trigger_assets_index_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__point_less__ = __webpack_require__(156);
+throw new Error("Cannot find module \"babel-runtime/helpers/classCallCheck\"");
+throw new Error("Cannot find module \"babel-runtime/helpers/possibleConstructorReturn\"");
+throw new Error("Cannot find module \"babel-runtime/helpers/inherits\"");
+throw new Error("Cannot find module \"react\"");
+throw new Error("Cannot find module \"react-dom\"");
+throw new Error("Cannot find module \"rc-trigger\"");
+throw new Error("Cannot find module \"rc-trigger/assets/index.less\"");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__point_less__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__point_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__point_less__);
 
 
@@ -125,7 +119,7 @@ var Test = function (_React$Component) {
         'div',
         { style: { margin: 50 } },
         __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(
-          __WEBPACK_IMPORTED_MODULE_5_rc_trigger__["a" /* default */],
+          __WEBPACK_IMPORTED_MODULE_5_rc_trigger___default.a,
           {
             popupPlacement: 'topLeft',
             action: [action],
@@ -163,13 +157,11 @@ var Test = function (_React$Component) {
 __WEBPACK_IMPORTED_MODULE_4_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(Test, null), document.getElementById('__react-content'));
 
 /***/ }),
-
-/***/ 156:
+/* 4 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ })
-
-},[154]);
+],[2]);
 //# sourceMappingURL=point.js.map

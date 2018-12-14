@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>simple.js - example - rc-trigger@2.6.2</title>
+  <title>simple.js - example - @visualbi/rc-trigger@2.6.8</title>
   <meta name="viewport"
         content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
   <meta charset="utf-8"/>
@@ -257,13 +257,13 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
   }
   </script>
-  <link rel="stylesheet" href="../common.css" />
+  
 </head>
 
 <body>
   <div class="container">
     <div class="header">
-      <h1>rc-trigger@2.6.2</h1>
+      <h1>@visualbi/rc-trigger@2.6.8</h1>
 
       <p>base abstract trigger component for react</p>
     </div>
@@ -274,7 +274,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 <span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
 <span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
 <span class="hljs-keyword">import</span> Trigger <span class="hljs-keyword">from</span> <span class="hljs-string">'rc-trigger'</span>;
-<span class="hljs-keyword">import</span> <span class="hljs-string">'rc-trigger/assets/index.css'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'rc-trigger/assets/index.less'</span>;
 
 <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getPopupAlign</span>(<span class="hljs-params">state</span>) </span>{
   <span class="hljs-keyword">return</span> {
@@ -440,7 +440,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
         <span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
         <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
             <span class="hljs-attribute">value</span>=<span class="hljs-value">"rc-trigger-popup-zoom"</span>
             <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>
             <span class="hljs-attribute">onChange</span>=<span class="hljs-value">{this.onTransitionChange}</span>
@@ -454,7 +454,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
         trigger:
 
         <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
             <span class="hljs-attribute">value</span>=<span class="hljs-value">"hover"</span>
             <span class="hljs-attribute">checked</span>=<span class="hljs-value">{!!trigger.hover}</span>
             <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>
@@ -463,7 +463,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
           hover
         <span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
             <span class="hljs-attribute">value</span>=<span class="hljs-value">"focus"</span>
             <span class="hljs-attribute">checked</span>=<span class="hljs-value">{!!trigger.focus}</span>
             <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>
@@ -472,7 +472,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
           focus
         <span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
             <span class="hljs-attribute">value</span>=<span class="hljs-value">"click"</span>
             <span class="hljs-attribute">checked</span>=<span class="hljs-value">{!!trigger.click}</span>
             <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>
@@ -481,7 +481,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
           click
         <span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
             <span class="hljs-attribute">value</span>=<span class="hljs-value">"contextMenu"</span>
             <span class="hljs-attribute">checked</span>=<span class="hljs-value">{!!trigger.contextMenu}</span>
             <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>
@@ -491,7 +491,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
         <span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>
         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
         <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
             <span class="hljs-attribute">checked</span>=<span class="hljs-value">{!!this.state.destroyPopupOnHide}</span>
             <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>
             <span class="hljs-attribute">onChange</span>=<span class="hljs-value">{this.destroyPopupOnHide}</span>
@@ -501,7 +501,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 
         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
         <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
             <span class="hljs-attribute">checked</span>=<span class="hljs-value">{!!this.state.mask}</span>
             <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>
             <span class="hljs-attribute">onChange</span>=<span class="hljs-value">{this.onMask}</span>
@@ -511,7 +511,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 
         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
         <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
             <span class="hljs-attribute">checked</span>=<span class="hljs-value">{!!this.state.maskClosable}</span>
             <span class="hljs-attribute">type</span>=<span class="hljs-value">"checkbox"</span>
             <span class="hljs-attribute">onChange</span>=<span class="hljs-value">{this.onMaskClosable}</span>
@@ -522,7 +522,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
         <span class="hljs-tag">&lt;<span class="hljs-title">br</span> /&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>
           offsetX:
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
             <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span>
             <span class="hljs-attribute">onChange</span>=<span class="hljs-value">{this.onOffsetXChange}</span>
             <span class="hljs-attribute">style</span>=<span class="hljs-value">{{</span> <span class="hljs-attribute">width:</span> <span class="hljs-attribute">50</span> }}
@@ -531,7 +531,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
         &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
         <span class="hljs-tag">&lt;<span class="hljs-title">label</span>&gt;</span>
           offsetY:
-          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">input</span>
             <span class="hljs-attribute">type</span>=<span class="hljs-value">"text"</span>
             <span class="hljs-attribute">onChange</span>=<span class="hljs-value">{this.onOffsetYChange}</span>
             <span class="hljs-attribute">style</span>=<span class="hljs-value">{{</span> <span class="hljs-attribute">width:</span> <span class="hljs-attribute">50</span> }}
@@ -541,7 +541,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
         <span class="hljs-tag">&lt;<span class="hljs-title">button</span> <span class="hljs-attribute">onClick</span>=<span class="hljs-value">{this.destroy}</span>&gt;</span>destroy<span class="hljs-tag">&lt;/<span class="hljs-title">button</span>&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{{</span> <span class="hljs-attribute">margin:</span> <span class="hljs-attribute">120</span>, <span class="hljs-attribute">position:</span> '<span class="hljs-attribute">relative</span>' }}&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-title">Trigger</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Trigger</span>
           <span class="hljs-attribute">getPopupContainer</span>=<span class="hljs-value">{undefined</span> &amp;&amp; <span class="hljs-attribute">getPopupContainer</span>}
           <span class="hljs-attribute">popupAlign</span>=<span class="hljs-value">{getPopupAlign(state)}</span>
           <span class="hljs-attribute">popupPlacement</span>=<span class="hljs-value">{state.placement}</span>
@@ -568,7 +568,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
           }
           popupTransitionName={state.transitionName}
         &gt;
-          <span class="hljs-tag">&lt;<span class="hljs-title">a</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">a</span>
             <span class="hljs-attribute">style</span>=<span class="hljs-value">{{</span> <span class="hljs-attribute">margin:</span> <span class="hljs-attribute">20</span>, <span class="hljs-attribute">display:</span> '<span class="hljs-attribute">inline-block</span>', <span class="hljs-attribute">background:</span> `<span class="hljs-attribute">rgba</span>(<span class="hljs-attribute">255</span>, <span class="hljs-attribute">0</span>, <span class="hljs-attribute">0</span>, <span class="hljs-attribute">0.05</span>)` }}
             <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span>
             <span class="hljs-attribute">onClick</span>=<span class="hljs-value">{preventDefault}</span>

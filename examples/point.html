@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>point.js - example - rc-trigger@2.6.2</title>
+  <title>point.js - example - @visualbi/rc-trigger@2.6.8</title>
   <meta name="viewport"
         content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
   <meta charset="utf-8"/>
@@ -257,13 +257,13 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
   }
   </script>
-  <link rel="stylesheet" href="../common.css" /><link rel="stylesheet" href="point.css" />
+  <link rel="stylesheet" href="point.css" />
 </head>
 
 <body>
   <div class="container">
     <div class="header">
-      <h1>rc-trigger@2.6.2</h1>
+      <h1>@visualbi/rc-trigger@2.6.8</h1>
 
       <p>base abstract trigger component for react</p>
     </div>
@@ -274,7 +274,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 <span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
 <span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
 <span class="hljs-keyword">import</span> Trigger <span class="hljs-keyword">from</span> <span class="hljs-string">'rc-trigger'</span>;
-<span class="hljs-keyword">import</span> <span class="hljs-string">'rc-trigger/assets/index.css'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'rc-trigger/assets/index.less'</span>;
 <span class="hljs-keyword">import</span> <span class="hljs-string">'./point.less'</span>;
 
 <span class="hljs-keyword">const</span> builtinPlacements = {
@@ -284,7 +284,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 };
 
 <span class="hljs-keyword">const</span> innerTrigger = (
-  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span>
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span>
     <span class="hljs-attribute">style</span>=<span class="hljs-value">{{</span> <span class="hljs-attribute">padding:</span> <span class="hljs-attribute">20</span>, <span class="hljs-attribute">background:</span> '<span class="hljs-attribute">rgba</span>(<span class="hljs-attribute">0</span>, <span class="hljs-attribute">255</span>, <span class="hljs-attribute">0</span>, <span class="hljs-attribute">0.3</span>)' }}
   &gt;</span>
     This is popup
@@ -329,7 +329,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
         <span class="hljs-tag">&lt;/<span class="hljs-title">label</span>&gt;</span>}
 
         <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{{</span> <span class="hljs-attribute">margin:</span> <span class="hljs-attribute">50</span> }}&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-title">Trigger</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Trigger</span>
             <span class="hljs-attribute">popupPlacement</span>=<span class="hljs-value">"topLeft"</span>
             <span class="hljs-attribute">action</span>=<span class="hljs-value">{[action]}</span>
             <span class="hljs-attribute">popupAlign</span>=<span class="hljs-value">{{</span>
@@ -344,7 +344,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
             <span class="hljs-attribute">popup</span>=<span class="hljs-value">{innerTrigger}</span>
             <span class="hljs-attribute">alignPoint</span>
           &gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-title">div</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">div</span>
               <span class="hljs-attribute">style</span>=<span class="hljs-value">{{</span>
                 <span class="hljs-attribute">border:</span> '<span class="hljs-attribute">1px</span> <span class="hljs-attribute">solid</span> <span class="hljs-attribute">red</span>',
                 <span class="hljs-attribute">padding:</span> '<span class="hljs-attribute">100px</span> <span class="hljs-attribute">0</span>',
